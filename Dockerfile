@@ -1,7 +1,7 @@
 FROM dlord/minecraft:java8
-MAINTAINER John Paul Alcala jp@jpalcala.com
+MAINTAINER Darryn Hosking dchosking1988@gmail.com
 
-ENV FTB_INFINITY_URL http://ftb.cursecdn.com/FTB2/modpacks/FTBInfinity/2_6_0/FTBInfinityServer.zip
+ENV FTB_INFINITY_URL https://ftb.forgecdn.net/FTB2/modpacks/FTBInfinity/3_1_0/FTBInfinityServer.zip
 ENV LAUNCHWRAPPER net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar
 
 RUN curl -SL $FTB_INFINITY_URL -o /tmp/infinity.zip && \
